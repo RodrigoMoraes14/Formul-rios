@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>ENSINO MAIS - Cadastramento</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilinho.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h2>Campo de Cadastramento - ENSINO MAIS</h2>
+        <h4>Informe os seus dados e escolha um curso que deseja fazer no EAD!</h4>
+            <form>
+                <div class="campo">
+                    <label>Nome:</label>
+                    <input type="text" size="38" id="txtnome" name="txtnome" class="estilizado"/>
+                </div>
+                
+                <div class="campo">
+                    <label>Idade:</label>
+                    <input type="text" size="1" id="textidade" name="textidade" class="estilizado"/>
+                </div>
+                
+                <div class="campo">
+                    <label for="dname">Data de Nascimento:</label>
+                    <input type="date" id="dname" name="dname" value="//" class="estilizado"><br>
+                </div>
+                
+                <div class="campo">
+                    <label>Gênero:</label><br>
+                    <input type="radio" id="masculino" name="sexo" value="masculino">
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" id="feminino" name="sexo" value="feminino">
+                    <label for="feminino">Feminino</label><br>
+                    <input type="radio" id="naoinformar" name="sexo" value="naoinformar">
+                    <label for="naoinformar">Prefiro não informar</label><br>
+                </div>
+                
+                <div class="campo">
+                    <label>E-Mail:</label>
+                    <input type="text" size="37" id="txtemail" name="txtemail" class="estilizado"/>
+                </div>
+                
+                <div class="campo">
+                    <label>Senha:</label>
+                    <input type="password" size="10" id="passwordsenha" name="passwordsenha" class="estilizado"/>
+                </div>
+                
+                <div class="campo">
+                    <label>Confirmar Senha:</label>
+                    <input type="password" size="10" id="passwordsenha" name="passwordsenha" class="estilizado"/>
+                </div>
+                
+                <div class="campo">
+                <label>Endereço:</label>
+                <input type="text" size="35" id="txtendereco" name="txtendereco" class="estilizado"/>
+                </div>
+                
+                <div class="campo">
+                    <label>Cidade:</label>
+                    <input type="text" id="textcidade" name="textcidade" class="estilizado"/>
+                </div>
+                
+                <div class="campo">
+                    <label>Estado:</label>
+                    <input type="text" size="10" id="txtestado" name="txtestado" class="estilizado"/>
+                </div>
+                
+                <div class="campo">
+                    <label>RG:</label>
+                    <input type="text" size="20" id="txtrg" name="txtrg" class="estilizado"/>
+                </div>
+                
+                <div class="campo">
+                    <label>CPF:</label>
+                    <input type="text" size="20" id="txtcpf" name="txtrg" class="estilizado"/>
+                </div>
+                
+                <div class="campo">
+                    <label>Curso Desejado:</label>
+                    <select id="curso" name="curso" class="estilizado">
+                        <option value="1">Administração</option>
+                        <option value="2">Web Designer</option>
+                        <option value="3">Rede de Computadores</option>
+                        <option value="4">Engenharia da Computação</option>
+                        <option value="5">Sistema de Informação</option>
+                        <option value="6">Inglês</option>
+                        <option value="7">Informática Básica</option>
+                        <option value="8">Logística</option>
+                        <option value="9">BioMedcina</option>
+                        <option value="10">Gastronomia</option>
+                        <option value="11">Turismo</option>
+                        <option value="12">Engenharia Civil</option>
+                    </select>
+                </div>
+                
+                <input type="Submit" value="Enviar" class="btnaclopado"/>
+                <input type="reset" value="Limpar" class="btnaclopado"/>
+                <br><br>
+                <a href="index.html">Voltar ao menu principal</a>
+            </form>
+    </body>
+</html>
